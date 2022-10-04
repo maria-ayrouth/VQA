@@ -25,6 +25,7 @@ A high-level view about the VQA model :
 
 ## Conclusion
 As a result, we got an accuracy of 91% after we go through a lot of experiment. This value represent the performance of the trained model on VQA training dataset.
+
 ![Screenshot (807)](https://user-images.githubusercontent.com/90212538/193789130-5b89dbbb-3154-48ae-88ec-f7d466c0d2ff.png)
 
 
