@@ -29,5 +29,6 @@ As a result, we got an accuracy of 91% after we go through a lot of experiment. 
 
 
 A few examples of predicted answers from the "Yes/No” validation subcategory are shown below:
-![download (20)](https://user-images.githubusercontent.com/90212538/193789507-9fb55d7f-a584-4784-bd2e-a48d5404c5a2.png)
+![Screenshot (809)](https://user-images.githubusercontent.com/90212538/193790445-44695b8b-4d46-442d-b7de-23143be7ca25.png)
 
+By looking at this figure, our VQA model output a predicted value of 0 or 1 which mean “no” or “yes” respectively. If we check the first, second and fourth scene, our model predict correctly, but for the third scene, we find that the predicted output mismatch with the correct answer which is “no”. Our model predict around 54% correctly on validation dataset.
