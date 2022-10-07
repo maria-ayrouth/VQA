@@ -24,12 +24,14 @@ A high-level view about the VQA model :
 
 
 ## Conclusion
-As a result, we got an accuracy of 91% after we go through a lot of experiment. This value represent the performance of the trained model on VQA training dataset.
+As a result, we got an accuracy of 80% after we go through a lot of experiment. This value represent the performance of the trained model on VQA training dataset.
 
-![Screenshot (807)](https://user-images.githubusercontent.com/90212538/193789130-5b89dbbb-3154-48ae-88ec-f7d466c0d2ff.png)
+![Screenshot (814)](https://user-images.githubusercontent.com/90212538/194493877-1abe34a0-3ec8-43f7-af88-52cbe082a405.png)
+
 
 
 A few examples of predicted answers from the "Yes/No” validation subcategory are shown below:
-![Screenshot (809)](https://user-images.githubusercontent.com/90212538/193790445-44695b8b-4d46-442d-b7de-23143be7ca25.png)
+![Screenshot (815)](https://user-images.githubusercontent.com/90212538/194493819-c71871c9-4c38-4dcc-a9c3-01b867ed421e.png)
 
-By looking at this figure, our VQA model output a predicted value of 0 or 1 which mean “no” or “yes” respectively. If we check the first, second and fourth scene, our model predict correctly, but for the third scene, we find that the predicted output mismatch with the correct answer which is “no”. Our model predict around 54% correctly on validation dataset.
+
+By looking at this figure, our VQA model output a predicted value of 0 or 1 which mean “no” or “yes” respectively. If we check the first, second and third scene, our model predict correctly, but for the fourth scene, we find that the predicted output mismatch with the correct answer which is “no”. Our model predict around 50% correctly on validation dataset.
